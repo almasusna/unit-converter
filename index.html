@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
+    <title>Unit Converter</title>
+</head>
+<body>
+    <div class="app">
+        <div class="top-block">
+            <h1>Metric/Imperial Unit Conversion</h1>
+            <input type="text" class="number" id="input-number"> 
+            <button id="convert-button" class="convert-btn">Convert</button>
+            <p id="error"></p>
+        </div>
+        <div class="bottom-block">
+            <div class="box">
+                <h3 class="quantities">Length (Meter/Feet)</h3>
+                <p><span class="display-number"></span> meters = <span id="to-feet"></span> feet | <span class="display-number"></span> feet = <span id="to-meters"></span>meters</p>
+            </div>
+            <div class="box">
+                <h3 class="quantities">Volume (Liters/Gallons)</h3>
+                <p><span class="display-number"></span> liters = <span id="to-gallons"></span> gallons | <span class="display-number"></span> gallons = <span id="to-liters"></span>meters</p>
+            </div>
+            <div class="box">
+                <h3 class="quantities">Mass (Kilograms/Pounds)</h3>
+                <p><span class="display-number"></span> kilos = <span id="to-pounds"></span> pounds | <span class="display-number"></span> pounds = <span id="to-kilos"></span>kilos</p>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

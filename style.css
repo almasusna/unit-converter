@@ -1,0 +1,85 @@
+body {
+    margin: 0px;
+    font-family: 'Inter', sans-serif;
+    --width: 550px;
+    --height: 729px;
+
+}
+
+
+.app {
+    width: calc(var(--width));
+    height: calc(var(--height));
+    margin: 20px auto;
+    text-align: center;
+}
+
+.top-block {
+    background-color: #6943FF;
+    padding: 33px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: 800;
+    color: white;
+    margin-top: 0px;
+}
+
+.number {
+    font-size: 58px;
+    font-weight: 800;
+    color: white;
+    padding: 12px 20px;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+
+    outline: none;
+
+    background-color: transparent;
+    width: 85px;
+}
+
+#error {
+    color: red;
+    margin: 0px;    
+}
+
+
+.convert-btn {
+    margin: 26px auto;
+    padding: 9px 27px;
+    margin-bottom: 0px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.bottom-block {
+    background-color: #F4F4F4;
+    padding: 13px;
+}
+
+.box {
+    background-color: white;
+    padding-top: 31px;
+    padding-bottom: 18px;
+    margin: 23px;
+}
+
+h3.quantities {
+    margin: 0px;
+    color: #5A537B;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+p {
+    color: #353535;
+    font-size: 14px;
+}
